@@ -42,15 +42,18 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/portfolio-v2.git](https://github.com/your-username/portfolio-v2.git)
+   git clone https://github.com/nugrahreswara/web-portofolio.git
 
 2. Navigate to the directory:
-   cd portfolio-v2
+   cd web-portofolio
 
 3. Install dependencies:
    npm install
 
 4. Start the development server:
    npm run dev
+
+5. Build for production:
+   npm run build
 
 Designed & Developed by Anugerah Fakhriza Reswara.
