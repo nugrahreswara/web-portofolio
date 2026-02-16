@@ -45,15 +45,19 @@ To run this project locally, follow these steps:
    git clone https://github.com/nugrahreswara/web-portofolio.git
 
 2. Navigate to the directory:
+   ```bash
    cd web-portofolio
 
-3. Install dependencies:
+4. Install dependencies:
+   ```bash
    npm install
 
-4. Start the development server:
+6. Start the development server:
+   ```bash
    npm run dev
 
-5. Build for production:
+8. Build for production:
+   ```bash
    npm run build
 
 Designed & Developed by Anugerah Fakhriza Reswara.
