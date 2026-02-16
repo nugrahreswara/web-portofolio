@@ -1,73 +1,56 @@
-# React + TypeScript + Vite
+# Modern Professional Portfolio | Nugrah Reswara
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance, responsive portfolio website showcasing the professional journey, technical expertise, and projects of Anugerah Fakhriza Reswara, an IT Network System Administrator and Network Engineering Enthusiast.
 
-Currently, two official plugins are available:
+## 🚀 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository contains the source code for a modern personal portfolio designed with a focus on user experience, aesthetic glassmorphism, and performance. The site serves as a digital resume and a showcase of technical projects in the field of Network Engineering and Systems Administration.
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Responsive Design:** Fully optimized for all device sizes (mobile, tablet, desktop).
+- **Interactive UI:** Smooth transitions and hover effects (e.g., hover-lift, custom cursor).
+- **Glassmorphism Aesthetic:** Modern UI components using `glass-dark` and `glass-light` blur effects.
+- **Performance Optimized:** Minimal initial load time with critical CSS and module preloading.
+- **Dynamic Animations:** Framer Motion-powered entrance animations and spring-based interactions.
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Framework:** React 19 (Transitional)
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Fonts:** Inter & Outfit (via Google Fonts)
+- **Icons:** Lucide React
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📂 Project Structure
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- `index.html`: Main entry point with critical SEO tags and initial loading states.
+- `src/App.tsx`: Core application logic and component routing.
+- `index-DxKXNmDw.css`: Tailwind utility classes and custom design tokens.
+- `index-Bos8SA_U.js`: Compiled application logic including Framer Motion animations.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 👤 About the Author
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+**Anugerah Fakhriza Reswara**
+*IT Network & Systems Administrator*
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Specializing in designing, implementing, and managing robust network infrastructures. Passionate about automation, security, and continuous learning in the ever-evolving landscape of Network Engineering.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ⚙️ Installation & Development
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/portfolio-v2.git](https://github.com/your-username/portfolio-v2.git)
+
+2. Navigate to the directory:
+   cd portfolio-v2
+
+3. Install dependencies:
+   npm install
+
+4. Start the development server:
+   npm run dev
+
+Designed & Developed by Anugerah Fakhriza Reswara.
